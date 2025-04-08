@@ -15,34 +15,34 @@ export const NAVIGATION_CONFIG = {
             children: [
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details1'
               },
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details2'
               },
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details3'
               },
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details4'
               },
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details5'
               },
               {
                 label: '프로젝트 상세',
-                path: 'dashboards/projects/details'
+                path: 'dashboards/projects/details6'
               },
             ]
             
           },
           {
             label: '프로젝트 예상',
-            path: 'dashboards/projects/overview'
+            path: 'dashboards/projects/overview2'
           }
         ]
       },

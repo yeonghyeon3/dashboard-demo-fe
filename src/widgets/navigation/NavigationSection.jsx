@@ -8,7 +8,6 @@ const NavigationSection = () => {
 
   // 현재 경로에 따라 섹션 결정
   const getCurrentSection = (path) => {
-    console.log(path)
     if (path.startsWith('/')) return 'dashboards';
     if (path.startsWith('/projects')) return 'projects';
     if (path.startsWith('/settings')) return 'settings';
@@ -24,6 +23,7 @@ const NavigationSection = () => {
   const renderNavigationItems = (items, depth = 0) => {
     return items.map(item => (
       <NavigationItem
+        key={item.path}
         icon={item.icon}
         label={item.label}
         to={item.path}

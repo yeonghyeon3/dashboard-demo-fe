@@ -4,7 +4,7 @@ import styles from "./DashboardLayout.module.css"
 import { useMediaQuery } from "../../shared/lib/hooks/useMediaQuery/useMediaQuery"
 
 import Header from "../../shared/ui/Header"
-import NavigationSection from "../../widgets/navigation/NavigationSection"
+import { Navigation}  from "@/widgets/navigation"
 
 export const DashboardLayout = () => {
 
@@ -63,7 +63,7 @@ export const DashboardLayout = () => {
       onMouseEnter={handleNavMouseEnter}
       onMouseLeave={handleNavMouseLeave}
       >
-        <NavigationSection/>
+        <Navigation/>
       </div>
       <main className={styles.main}>
         <Header 
