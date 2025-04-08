@@ -5,7 +5,7 @@ import { CARD_SIZES } from '@/shared/ui/Card/constants';
 import styles from '@/pages/Dashboard.module.css';
 import grid from '../widgets/dashboard/DashboardGrid.module.css';
 import Table from '@/shared/ui/Table/Table';
-
+import SampleChart from '@/features/sample/sampleChart';
 // import { Card } from '../shared/ui/Card/Card';
 import { Card } from '@/shared/ui/Card/Card';
 
@@ -29,17 +29,13 @@ const Dashboard = () => {
     <div className={styles.dashboardPage}>
       <DashboardGrid layout='Wide'>
           <Card className={grid.gridWideItem} size={CARD_SIZES.DEFAULT}>
-            111
+            <SampleChart/>
           </Card>
           <Card className={grid.gridItem} size={CARD_SIZES.DEFAULT}>
           </Card>
           <Card className={grid.gridWideItem} size={CARD_SIZES.DEFAULT}>
           </Card>
 
-
-        {/* <Card className={grid.gridWideItem} size={CARD_SIZES.DEFAULT}>
-          <ProjectDetail/>
-        </Card> */}
       </DashboardGrid>
 
       <Card>
