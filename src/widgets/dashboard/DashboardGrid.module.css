@@ -1,0 +1,40 @@
+.dashboardGrid {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.layoutDefault {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.layoutWide {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.layoutCompact {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gridWideItem {
+  min-width: 0;
+  grid-column: span 2;
+}
+
+.gridItem {
+  min-width: 0;
+}
+
+/* 반응형 그리드 */
+@media (max-width: 1200px) {
+  .layoutWide, 
+  .layoutCompact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboardGrid {
+    grid-template-columns: 1fr;
+  }
+}

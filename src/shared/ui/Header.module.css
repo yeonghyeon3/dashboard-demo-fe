@@ -1,0 +1,22 @@
+.header {
+  display: grid;
+  background-color: var(--header-bg);
+  color: var(--header-color);
+  grid-template-columns: 1fr 2fr 1fr;
+  box-sizing: border-box;
+  padding:0.35rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  align-items: center;
+}
+
+.leftSection {
+  justify-self: start;
+}
+
+.centerSection {
+  justify-self: center;
+}
+
+.rightSection {
+  justify-self: end;
+}

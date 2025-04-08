@@ -1,0 +1,14 @@
+:root {
+  --header-bg: #2E2E38;
+  --header-color: #FFF;
+
+  
+  --navigation-bg: #2E2E38;
+  --navigation-title-color:#FFE600;
+  --navigation-color: rgba(255, 255, 255, 0.70);
+  --navigation-hover-bg: rgba(255, 255, 255, 0.10);
+  --navigation-hover-color:rgba(255, 255, 255, 0.70);
+  --navigation-active-bg: #747480;
+  --navigation-active-color: #FFE600;
+
+}

@@ -1,0 +1,100 @@
+/* 아이콘 래퍼 */
+.iconWrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 기본 아이콘 스타일 */
+.icon {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  /* color: #333; */
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+.icon:active {
+  transform: scale(0.95);
+}
+
+/* 크기 변형 */
+.xs {
+  font-size: 0.75rem;  /* 12px */
+}
+
+.sm {
+  font-size: 0.875rem; /* 14px */
+}
+
+.md {
+  font-size: 1rem;    /* 16px */
+}
+
+.lg {
+  font-size: 1.25rem; /* 20px */
+}
+
+.xl {
+  font-size: 1.5rem;  /* 24px */
+}
+
+.xxl {
+  font-size: 2rem;     /* 32px */
+}
+
+/* 배지 스타일 */
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 9px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* 배지 색상 */
+.badge-primary {
+  background-color: #007bff;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+/* 비활성화 상태 */
+/* .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.disabled .icon {
+  cursor: not-allowed;
+}
+
+.disabled .icon:hover {
+  opacity: 1;
+}
+
+.disabled .icon:active {
+  transform: none;
+} */

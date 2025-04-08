@@ -1,0 +1,60 @@
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.tableHeader {
+  background: #f8f9fa;
+}
+
+.tableHeaderCell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  color: #495057;
+}
+
+.tableCell {
+  padding: 0.75rem 1rem;
+  color: #212529;
+}
+
+.tableRow {
+  border-bottom: 0.0625rem solid #e9ecef;
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+/* 선택 가능한 행 */
+.selectable {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.selectable:hover {
+  background-color: #f8f9fa;
+}
+
+/* 줄무늬 스타일 */
+.striped tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* 테두리 스타일 */
+.bordered {
+  border: 0.0625rem solid #e9ecef;
+}
+
+.bordered th,
+.bordered td {
+  border: 0.0625rem solid #e9ecef;
+}
+
+/* 컴팩트 스타일 */
+.compact th,
+.compact td {
+  padding: 0.5rem 0.75rem;
+}
